@@ -1,8 +1,8 @@
-import 'package:beztami_ewallet_app/screens/OnBoarding2.dart';
-import 'package:beztami_ewallet_app/screens/welcomeScreen.dart';
+
+import 'package:beztami_ewallet_app/presentation/screens/welcomeScreen.dart';
 import 'package:flutter/material.dart';
 
-class OnboardingScreen1 extends StatelessWidget {
+class OnboardingScreen2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,14 +20,14 @@ class OnboardingScreen1 extends StatelessWidget {
                 Column(
                   children: [
                     Image.asset(
-                      'assets/images/onbord1.png',
+                      'assets/images/onbord2.png', // Replace with your image path
                       height: 300,
                     ),
                     SizedBox(height: 32),
                     Row(
                       children: [
                         Text(
-                          'Control Your\nMoney, Simply.',
+                          'See Your Spending Clearly.',
                           textAlign: TextAlign.start,
                           style: TextStyle(
                             fontSize: 24,
@@ -79,7 +79,7 @@ class OnboardingScreen1 extends StatelessWidget {
                         Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => OnboardingScreen2(),
+                            builder: (context) => WelcomeScreen(),
                           ),
                         );
                       },

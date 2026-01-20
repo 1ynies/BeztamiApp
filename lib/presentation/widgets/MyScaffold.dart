@@ -1,10 +1,10 @@
-import 'package:beztami_ewallet_app/screens/budgetScreen.dart';
-import 'package:beztami_ewallet_app/screens/goalsScreen.dart';
-import 'package:beztami_ewallet_app/screens/plannedPaymentsScreen.dart';
-import 'package:beztami_ewallet_app/screens/wallethomescreen.dart';
+import 'package:beztami_ewallet_app/presentation/screens/budgetScreen.dart';
+import 'package:beztami_ewallet_app/presentation/screens/goalsScreen.dart';
+import 'package:beztami_ewallet_app/presentation/screens/plannedPaymentsScreen.dart';
+import 'package:beztami_ewallet_app/presentation/screens/wallethomescreen.dart';
 import 'package:flutter/material.dart';
 
-import 'dashboardScreen.dart';
+import '../screens/dashboardScreen.dart';
 
 class MyScaffold extends StatelessWidget {
   // final String title ;

@@ -1,14 +1,14 @@
-import 'package:flutter/cupertino.dart';
+
+import 'package:beztami_ewallet_app/presentation/widgets/MyScaffold.dart';
 import 'package:flutter/material.dart';
 
-import 'MyScaffold.dart' show MyScaffold;
-
-class GoalsScreen extends StatefulWidget{
+class Plannedpaymentsscreen extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => _goalScreenState();
-
+  State<StatefulWidget> createState() => _plannedPaymentsState();
 }
-class _goalScreenState extends State<GoalsScreen>{
+
+class _plannedPaymentsState extends State<Plannedpaymentsscreen> {
+
   @override
   Widget build(BuildContext context) {
     return MyScaffold(
@@ -41,5 +41,4 @@ class _goalScreenState extends State<GoalsScreen>{
       ),
     );
   }
-
 }

@@ -1,13 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'MyScaffold.dart';
+import '../widgets/MyScaffold.dart' show MyScaffold;
 
-class BudgetScreen extends StatefulWidget {
+class GoalsScreen extends StatefulWidget{
   @override
-  State<StatefulWidget> createState() => _budgetScreenState();
+  State<StatefulWidget> createState() => _goalScreenState();
+
 }
-class _budgetScreenState extends State<BudgetScreen>{
+class _goalScreenState extends State<GoalsScreen>{
   @override
   Widget build(BuildContext context) {
     return MyScaffold(
@@ -18,7 +19,7 @@ class _budgetScreenState extends State<BudgetScreen>{
           children: [
             // Image.asset("assets/images/wallet.png",width: 200,height: 200,),
             Text(
-              'Create Budgets',
+              'Add planned payments',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 24,
@@ -28,7 +29,7 @@ class _budgetScreenState extends State<BudgetScreen>{
             ),
             // SizedBox(height: 20),
             Text(
-              'Visualize and manage your \n spending with ease.',
+              'Visualize your upcoming bills \nand track their status effortlessly.',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16,

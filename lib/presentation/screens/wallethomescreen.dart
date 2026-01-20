@@ -1,5 +1,5 @@
 
-import 'package:beztami_ewallet_app/screens/MyScaffold.dart';
+import 'package:beztami_ewallet_app/presentation/widgets/MyScaffold.dart';
 import 'package:flutter/material.dart';
 
 class WalletScreen extends StatefulWidget {

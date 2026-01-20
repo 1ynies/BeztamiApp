@@ -1,4 +1,4 @@
-import 'package:beztami_ewallet_app/screens/OnBoarding1.dart';
+import 'package:beztami_ewallet_app/presentation/screens/OnBoarding1.dart';
 import 'package:flutter/material.dart';
 
 void main() async {

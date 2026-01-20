@@ -1,14 +1,13 @@
-
-import 'package:beztami_ewallet_app/screens/MyScaffold.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Plannedpaymentsscreen extends StatefulWidget {
+import '../widgets/MyScaffold.dart';
+
+class BudgetScreen extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => _plannedPaymentsState();
+  State<StatefulWidget> createState() => _budgetScreenState();
 }
-
-class _plannedPaymentsState extends State<Plannedpaymentsscreen> {
-
+class _budgetScreenState extends State<BudgetScreen>{
   @override
   Widget build(BuildContext context) {
     return MyScaffold(
@@ -19,7 +18,7 @@ class _plannedPaymentsState extends State<Plannedpaymentsscreen> {
           children: [
             // Image.asset("assets/images/wallet.png",width: 200,height: 200,),
             Text(
-              'Add planned payments',
+              'Create Budgets',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 24,
@@ -29,7 +28,7 @@ class _plannedPaymentsState extends State<Plannedpaymentsscreen> {
             ),
             // SizedBox(height: 20),
             Text(
-              'Visualize your upcoming bills \nand track their status effortlessly.',
+              'Visualize and manage your \n spending with ease.',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16,
@@ -41,4 +40,5 @@ class _plannedPaymentsState extends State<Plannedpaymentsscreen> {
       ),
     );
   }
+
 }

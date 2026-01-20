@@ -1,6 +1,6 @@
 
-import 'package:beztami_ewallet_app/screens/dashboardScreen.dart';
-import 'package:beztami_ewallet_app/screens/welcomeScreen.dart';
+import 'package:beztami_ewallet_app/presentation/screens/dashboardScreen.dart';
+import 'package:beztami_ewallet_app/presentation/screens/welcomeScreen.dart';
 import 'package:flutter/material.dart';
 
 class SignupScreen extends StatefulWidget {

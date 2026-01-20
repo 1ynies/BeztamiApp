@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'MyScaffold.dart' show MyScaffold;
+import '../widgets/MyScaffold.dart' show MyScaffold;
 
 class DeptScreen extends StatefulWidget{
   @override
